@@ -85,6 +85,7 @@
     }
 
     @media (pointer: coarse) {
+
       body,
       a,
       button {
@@ -428,6 +429,25 @@
     }
 
     .nav-cta:hover {
+      opacity: 0.72;
+    }
+
+    .nav-cta-cv {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--btn-bg);
+      background: var(--btn-fg);
+      padding: 7px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: opacity 0.18s, background 0.4s, color 0.4s;
+      display: inline-block;
+      border: 1px solid var(--border-bold);
+      border-radius: 20%;
+    }
+
+    .nav-cta-cv:hover {
       opacity: 0.72;
     }
 
@@ -1105,6 +1125,7 @@
           <span class="sun">◐</span>
         </button>
         <a href="#contact" class="nav-cta mag">Contact</a>
+        <a href="assets/Chaheth_Senevirathne_CV.pdf" class="nav-cta-cv mag">CV</a>
       </div>
     </div>
   </nav>
