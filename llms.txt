@@ -1,0 +1,32 @@
+# Chaheth Senevirathne
+
+This file provides guidance for AI and search crawlers.
+
+## About
+Chaheth Senevirathne is a software engineer and AI builder based in Colombo, Sri Lanka. He builds full-stack products, AI workflows, and production-ready APIs for real-world use.
+
+## Contact
+- Email: chahethsen12@gmail.com
+- LinkedIn: https://www.linkedin.com/in/chaheth-senevirathne
+- GitHub: https://github.com/Chahethsen12
+
+## Specialties
+- Software engineering
+- Full-stack web development
+- Applied AI and machine learning
+- API design and deployment
+- Developer tooling and product delivery
+
+## Key projects
+- SafeText AI
+- MindSnap
+- DevLog API
+- Redex
+- HeartQuest
+- Pro AI Blog Engine
+
+## Site
+- Homepage: https://chahethsenevirathne.com/
+- About: https://chahethsenevirathne.com/about.html
+- Projects: https://chahethsenevirathne.com/projects.html
+- Contact: https://chahethsenevirathne.com/contact.html

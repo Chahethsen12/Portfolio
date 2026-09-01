@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chahethsenevirathne.com/sitemap.xml
+
+# Website crawl policy
+Allow: /index.html
+Allow: /about.html
+Allow: /projects.html
+Allow: /contact.html

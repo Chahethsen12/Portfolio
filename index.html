@@ -4,17 +4,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chaheth Senevirathne</title>
+  <title>Chaheth Senevirathne | Software Engineer & AI Builder</title>
+  <meta name="description" content="Chaheth Senevirathne is a software engineer and AI builder in Colombo, Sri Lanka, creating full-stack products, APIs, and applied AI experiences." />
+  <meta name="keywords" content="Chaheth Senevirathne, software engineer, Sri Lanka, AI builder, full-stack developer, portfolio, Colombo" />
+  <meta name="author" content="Chaheth Senevirathne" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="canonical" content="https://chahethsenevirathne.com/" />
+  <link rel="canonical" href="https://chahethsenevirathne.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Chaheth Senevirathne" />
+  <meta property="og:title" content="Chaheth Senevirathne | Software Engineer & AI Builder" />
+  <meta property="og:description" content="Software engineer and AI builder based in Colombo, Sri Lanka, focused on reliable software, full-stack product development, and practical AI." />
+  <meta property="og:url" content="https://chahethsenevirathne.com/" />
+  <meta property="og:image" content="https://chahethsenevirathne.com/assets/social-share.svg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chaheth Senevirathne | Software Engineer & AI Builder" />
+  <meta name="twitter:description" content="Full-stack software engineer and AI builder creating modern products from Colombo, Sri Lanka." />
+  <meta name="twitter:image" content="https://chahethsenevirathne.com/assets/social-share.svg" />
+  <meta name="twitter:site" content="@chahethsenevirathne" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <!-- Prevent dark-mode flash -->
   <script>
-    const _t = localStorage.getItem('cs-theme');
-    if (_t) document.documentElement.setAttribute('data-theme', _t);
+    try {
+      const _t = localStorage.getItem('cs-theme');
+      if (_t) document.documentElement.setAttribute('data-theme', _t);
+    } catch (err) {
+      // Ignore storage access issues in restricted browsers.
+    }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,900;1,300&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap"
     rel="stylesheet" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Chaheth Senevirathne",
+          "JobTitle": "Software Engineer & AI Builder",
+          "description": "Software engineer and AI builder based in Colombo, Sri Lanka, focused on full-stack product development, APIs, and applied AI.",
+          "url": "https://chahethsenevirathne.com/",
+          "email": "chahethsen12@gmail.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/chahethsenevirathne",
+            "https://github.com/Chahethsen12"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Colombo",
+            "addressCountry": "LK"
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "Chaheth Senevirathne Portfolio",
+          "url": "https://chahethsenevirathne.com/",
+          "areaServed": "Sri Lanka",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Colombo",
+            "addressCountry": "LK"
+          },
+          "email": "chahethsen12@gmail.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/chahethsenevirathne",
+            "https://github.com/Chahethsen12"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chahethsenevirathne.com/"
+            }
+          ]
+        }
+      ]
+    }
+  </script>
   <style>
     /* ══════════════════════════════════════
        THEME VARIABLES
@@ -1111,11 +1186,11 @@
   <!-- ══════ NAV ══════ -->
   <nav id="mainNav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">CS.</a>
+      <a href="/" class="nav-logo">CS.</a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
+        <li><a href="/about.html">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Work</a></li>
+        <li><a href="/projects.html">Work</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
       </ul>
@@ -1124,10 +1199,16 @@
           <span class="moon">◑</span>
           <span class="sun">◐</span>
         </button>
-        <a href="#contact" class="nav-cta mag">Contact</a>
+        <a href="/contact.html" class="nav-cta mag">Contact</a>
         <a href="assets/Chaheth_Senevirathne_CV.pdf" class="nav-cta-cv mag">CV</a>
       </div>
     </div>
+  </nav>
+
+  <nav class="breadcrumb" aria-label="Breadcrumb" style="position: fixed; top: 72px; left: 50%; transform: translateX(-50%); z-index: 20; width: min(1080px, calc(100% - 32px)); display: flex; gap: 10px; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-muted);">
+    <a href="/" style="color: var(--ink-muted); text-decoration: none;">Home</a>
+    <span>/</span>
+    <span aria-current="page">Portfolio</span>
   </nav>
 
   <!-- ══════ HERO ══════ -->
@@ -1135,16 +1216,15 @@
     <div class="hero-cover">
       <div class="hero-title">Chaheth Senevirathne</div>
       <div class="hero-meta">
-        <span class="hero-name">Asphiring Software Engineer</span>
+        <span class="hero-name">Software Engineer &amp; AI Builder</span>
         <span class="hero-year">2026</span>
       </div>
       <p class="hero-sub">
-        Software Engineer &amp; Applied AI Builder. MERN · Python · FastAPI.<br>
-        Building real, deployable products from Colombo, Sri Lanka.
+        Full-stack engineer designing dependable products, APIs, and AI-powered experiences for real users from Colombo, Sri Lanka.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn-primary mag">View Work</a>
-        <a href="#contact" class="btn-secondary mag">Get in Touch</a>
+        <a href="/projects.html" class="btn-primary mag">View Work</a>
+        <a href="/contact.html" class="btn-secondary mag">Get in Touch</a>
       </div>
     </div>
   </section>
@@ -1176,7 +1256,7 @@
       </div>
       <div class="about-text">
         <div class="about-img-wrapper">
-          <img src="result_0.png" alt="Chaheth Senevirathne" class="about-img" />
+          <img src="result_0.png" alt="Portrait of software engineer Chaheth Senevirathne in Colombo, Sri Lanka" class="about-img" loading="lazy" />
         </div>
         <p>I'm a Computer Science undergraduate (BSc Hons, University of Bedfordshire) focused on building real,
           production-ready applications using MERN, Python, and applied AI. I care about clean architecture, useful
@@ -1389,16 +1469,16 @@
     <p class="contact-sub reveal">Open to internship and junior roles — Colombo, hybrid, or remote.<br>AI, full-stack,
       or anywhere I can ship fast and learn faster.</p>
     <div class="contact-links reveal">
-      <a href="mailto:chahethsen12@gmail.com" class="contact-link">Email Me</a>
-      <a href="https://linkedin.com/in/chahethsenevirathne" class="contact-link" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Chahethsen12" class="contact-link" target="_blank">GitHub</a>
+      <a href="mailto:chahethsen12@gmail.com" class="contact-link">Email</a>
+      <a href="https://www.linkedin.com/in/chaheth-senevirathne" class="contact-link" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com/Chahethsen12" class="contact-link" target="_blank" rel="noreferrer">GitHub</a>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
     <span class="footer-name">Chaheth Senevirathne</span>
-    <span class="footer-copy">© 2026 — Rajagiriya, Sri Lanka</span>
+    <span class="footer-copy">© 2026 — Colombo, Sri Lanka</span>
   </footer>
 
   <script>

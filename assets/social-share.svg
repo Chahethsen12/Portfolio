@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Chaheth Senevirathne | Software Engineer & AI Builder</title>
+  <desc id="desc">Portfolio preview graphic for Chaheth Senevirathne, software engineer and AI builder based in Colombo, Sri Lanka.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3f3f1"/>
+      <stop offset="100%" stop-color="#a7a7a2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1060" height="490" rx="28" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="110" y="180" fill="#d9d9d6" font-size="24" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">SOFTWARE ENGINEER • AI BUILDER</text>
+  <text x="110" y="300" fill="#f3f3f1" font-size="90" font-family="Arial, Helvetica, sans-serif" font-weight="700">Chaheth</text>
+  <text x="110" y="390" fill="#f3f3f1" font-size="90" font-family="Arial, Helvetica, sans-serif" font-weight="700">Senevirathne</text>
+  <text x="110" y="452" fill="#b7b7b3" font-size="30" font-family="Arial, Helvetica, sans-serif">Full-stack products • Applied AI • Colombo, Sri Lanka</text>
+  <rect x="858" y="150" width="172" height="172" rx="30" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="904" y="250" fill="url(#glow)" font-size="110" font-family="Arial, Helvetica, sans-serif" font-weight="700">CS</text>
+  <text x="110" y="520" fill="#8f8f8d" font-size="20" font-family="Arial, Helvetica, sans-serif" letter-spacing="3">CHAHETHSENEVIRATHNE.COM</text>
+</svg>
